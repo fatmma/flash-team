@@ -1,0 +1,920 @@
+ body{
+     
+     height: 6000px
+     }
+            /* start header*/
+            .container{
+                width: 1170px;
+                margin: auto
+            }
+                                                      
+            .header .slider{
+                background-image: url(imgs/2.jpg);
+                animation: cards 10s linear infinite;
+                animation-direction: alternate;
+                background-size: cover;
+                background-color: #eee;
+                height: 600px;
+            }
+@keyframes cards 
+{
+    0%{background-image: url("imgs/2.jpg");}
+
+    35%{background-image: url("imgs/slide-1.jpg");}
+    
+    70%{background-image: url("imgs/slide-2.jpg");}
+    
+    100%{background-image: url("imgs/21.jpg");}
+    
+}
+
+
+            .header .slider .title{ 
+                
+                padding-top: 50px;
+                height: 600px;
+                text-align: center;
+                color: #fff
+                }
+
+            .header .slider .title h2{
+                margin: 0px auto;
+                font-size:  60px;
+                width: 600px;
+                border-top: 4px solid #fff;
+                border-bottom: 4px solid #fff;
+                padding: 5px 0;
+            }
+
+
+
+
+            .header .navbar{
+                background-color: #252f31;
+                color: #fff;
+                overflow: hidden;
+                text-transform: capitalize;
+                font: 20px bold ;
+                    
+            }        
+            
+            .header .navbar h2{ 
+                float: left;
+                font-family: 'Tangerine', cursive;
+                font-size: 35px;
+/*                font-weight: 2000;*/
+                    }
+            .header .navbar h2 span {color: #2ecc71;}
+            
+
+            
+            .header .navbar ul{
+                list-style: none;
+                padding-left:0;
+                overflow:hidden;
+                float: right
+            }
+.navbar .s-text{
+    background-color: transparent;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 25px;
+    width: 300px;
+    height: 40px;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+/*    box-shadow: 1px 1px 2px #ccc;*/
+    font-size: 30px;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: white
+
+}
+.submit{
+    margin-left: 1%;
+    background-color: transparent;
+    border: 2px solid #2ecc71;
+    border-radius: 34px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px 10px 12px;
+}
+.submit :hover{
+    background-color: white;
+    font-weight: 300;
+}
+            .header .navbar ul li{
+                float: right; padding: 10px
+            }
+
+            .header .navbar ul li a {
+                color: #fff;
+                text-decoration: none;
+                font-size: 22px;
+                font-weight: 600px
+                
+                }
+
+
+.header .navbar ul li a:hover{color: #30b576}
+
+            /* end header*/
+
+
+            /* start features*/
+
+
+                .video
+                    {
+                        float: right;
+                    }
+                .features{
+                overflow: hidden;
+                padding-top: 40px;
+                padding-bottom: 40px;
+                text-align: center;
+                
+            }
+
+            .features .feat {
+                float: left;
+                width: 50%;
+                height: 150px;
+                font-size: 20px;
+                font-weight: 800;
+                word-spacing: 10px;
+                letter-spacing: 1px;
+                text-transform: capitalize;
+                color: #888;                    
+                
+                
+           
+            }
+
+            .features .feat h2 {
+                text-transform: uppercase;
+                font-size: 26px;
+                font-family: monospace;
+                font-weight: 1200;
+                letter-spacing: 5px;
+                background-color: beige;
+                color: #555;
+}
+
+            
+
+            /* end features*/
+
+             /* start about me */
+            .about-me{
+                background: #f2f2f2;
+                overflow: hidden;
+            }
+
+            .about-me .img{
+                float: left;
+
+            }
+
+            .about-me .info{
+                float: right;    
+            }
+
+.about-me .info h2{
+    text-transform: uppercase;
+                font-size: 36px;
+                font-family: cursive;
+                font-weight: 1200;
+                letter-spacing: 5px;
+                text-decoration: underline
+                }
+
+.about-me .info h4{
+    text-transform: capitalize;
+                font-size: 21px;
+                font-family: cursive;
+                font-weight: 500;
+                letter-spacing: 2px;
+                }
+
+.about-me .info p{
+    text-transform: capitalize;
+                font-size: 19px;
+                font-family: cursive;
+                font-weight: 500;
+                letter-spacing: 2px;
+                word-spacing: 10px;
+                }
+
+
+
+
+            about-mee{
+                background: white;
+                overflow: hidden
+            }
+
+            .about-mee .imgg{
+                float: right;
+
+            }
+
+            .about-mee .infoo{
+                float: left;
+            }
+
+.about-mee .infoo h2{
+    text-transform: uppercase;
+                font-size: 36px;
+                font-family: cursive;
+                font-weight: 1200;
+                letter-spacing: 5px;
+                text-decoration: underline
+                }
+
+.about-mee .infoo h4{
+    text-transform: capitalize;
+                font-size: 21px;
+                font-family: cursive;
+                font-weight: 500;
+                letter-spacing: 2px;
+                }
+
+.about-mee .infoo p{
+    text-transform: capitalize;
+                font-size: 19px;
+                font-family: cursive;
+                font-weight: 500;
+                letter-spacing: 2px;
+                word-spacing: 10px;
+                }
+
+
+
+            .clearfix{clear: both}
+
+
+
+
+            .healthy{
+                background: #f2f2f2;
+                overflow: hidden
+            }
+
+            .healthy .image{
+                float: left;
+
+            }
+
+            .healthy .information{
+                float: right;
+            }
+
+
+.healthy .information h2{
+    text-transform: uppercase;
+                font-size: 36px;
+                font-family: cursive;
+                font-weight: 1200;
+                letter-spacing: 5px;
+                text-decoration: underline
+                }
+
+.healthy .information h4{
+    text-transform: capitalize;
+                font-size: 21px;
+                font-family: cursive;
+                font-weight: 500;
+                letter-spacing: 2px;
+                }
+
+.healthy .information p{
+    text-transform: capitalize;
+                font-size: 19px;
+                font-family: cursive;
+                font-weight: 500;
+                letter-spacing: 2px;
+                word-spacing: 10px;
+                }
+
+
+
+                .healthy4{
+                background: white;
+                overflow: hidden
+            }
+
+            .healthy4 .image4{
+                float: right;
+
+            }
+
+            .healthy4 .information4{
+                float: left;
+            }
+
+
+.healthy4 .information4 h2{
+    text-transform: uppercase;
+                font-size: 36px;
+                font-family: cursive;
+                font-weight: 1200;
+                letter-spacing: 5px;
+                text-decoration: underline
+                }
+
+.healthy4 .information4 h4{
+    text-transform: capitalize;
+                font-size: 21px;
+                font-family: cursive;
+                font-weight: 500;
+                letter-spacing: 2px;
+                }
+
+.healthy4 .information4 p{
+    text-transform: capitalize;
+                font-size: 19px;
+                font-family: cursive;
+                font-weight: 500;
+                letter-spacing: 2px;
+                word-spacing: 10px;
+                }
+
+
+
+            .clearfix{clear: both}
+
+
+
+
+
+             .healthy5{
+                background: #f2f2f2;
+                overflow: hidden
+            }
+
+            .healthy5 .image5{
+                float: left;
+
+            }
+
+            .healthy5 .information5{
+                float: right;
+            }
+
+
+.healthy5 .information5 h2{
+    text-transform: uppercase;
+                font-size: 36px;
+                font-family: cursive;
+                font-weight: 1200;
+                letter-spacing: 5px;
+                text-decoration: underline
+                }
+
+.healthy5 .information5 h4{
+    text-transform: capitalize;
+                font-size: 21px;
+                font-family: cursive;
+                font-weight: 500;
+                letter-spacing: 2px;
+                }
+
+.healthy5 .information5 p{
+    text-transform: capitalize;
+                font-size: 19px;
+                font-family: cursive;
+                font-weight: 500;
+                letter-spacing: 2px;
+                word-spacing: 10px;
+                }
+
+
+
+
+            .healthy6{
+                background: white;
+                overflow: hidden
+            }
+
+            .healthy6 .image6{
+                float: right;
+
+            }
+
+            .healthy6 .information6{
+                float: left;
+            }
+
+
+.healthy6 .information6 h2{
+    text-transform: uppercase;
+                font-size: 36px;
+                font-family: cursive;
+                font-weight: 1200;
+                letter-spacing: 5px;
+                text-decoration: underline
+                }
+
+.healthy6 .information6 h4{
+    text-transform: capitalize;
+                font-size: 21px;
+                font-family: cursive;
+                font-weight: 500;
+                letter-spacing: 2px;
+                }
+
+.healthy6 .information6 p{
+    text-transform: capitalize;
+                font-size: 19px;
+                font-family: cursive;
+                font-weight: 500;
+                letter-spacing: 2px;
+                word-spacing: 10px;
+                }
+
+
+
+            .clearfix{clear: both}
+
+
+            .healthy7{
+                background: #f2f2f2;
+                overflow: hidden
+            }
+
+            .healthy7 .image7{
+                float: left;
+
+            }
+
+            .healthy7 .information7{
+                float: right;
+            }
+
+
+.healthy7 .information7 h2{
+    text-transform: uppercase;
+                font-size: 36px;
+                font-family: cursive;
+                font-weight: 1200;
+                letter-spacing: 5px;
+                text-decoration: underline
+                }
+
+.healthy7 .information7 h4{
+    text-transform: capitalize;
+                font-size: 21px;
+                font-family: cursive;
+                font-weight: 500;
+                letter-spacing: 2px;
+                }
+
+.healthy7 .information7 p{
+    text-transform: capitalize;
+                font-size: 19px;
+                font-family: cursive;
+                font-weight: 500;
+                letter-spacing: 2px;
+                word-spacing: 10px;
+                }
+
+
+
+
+            .healthy8{
+                background: white;
+                overflow: hidden
+            }
+
+            .healthy8 .image8{
+                float: right;
+
+            }
+
+            .healthy8 .information8{
+                float: left;
+            }
+
+
+.healthy8 .information8 h2{
+    text-transform: uppercase;
+                font-size: 36px;
+                font-family: cursive;
+                font-weight: 1200;
+                letter-spacing: 5px;
+                text-decoration: underline
+                }
+
+.healthy8 .information8 h4{
+    text-transform: capitalize;
+                font-size: 21px;
+                font-family: cursive;
+                font-weight: 500;
+                letter-spacing: 2px;
+                }
+
+.healthy8 .information8 p{
+    text-transform: capitalize;
+                font-size: 19px;
+                font-family: cursive;
+                font-weight: 500;
+                letter-spacing: 2px;
+                word-spacing: 10px;
+                }
+
+
+
+
+            .clearfix{clear: both}
+
+
+
+
+
+             .healthy9{
+                background: #f2f2f2;
+                overflow: hidden
+            }
+
+            .healthy9 .image9{
+                float: left;
+
+            }
+
+            .healthy9 .information9{
+                float: right;
+            }
+
+
+.healthy9 .information9 h2{
+    text-transform: uppercase;
+                font-size: 36px;
+                font-family: cursive;
+                font-weight: 1200;
+                letter-spacing: 5px;
+                text-decoration: underline
+                }
+
+.healthy9 .information9 h4{
+    text-transform: capitalize;
+                font-size: 21px;
+                font-family: cursive;
+                font-weight: 500;
+                letter-spacing: 2px;
+                }
+
+.healthy9 .information9 p{
+    text-transform: capitalize;
+                font-size: 19px;
+                font-family: cursive;
+                font-weight: 500;
+                letter-spacing: 2px;
+                word-spacing: 10px;
+                }
+
+
+
+
+            .healthy10{
+                background: white;
+                overflow: hidden
+            }
+
+            .healthy10 .image10{
+                float: right;
+
+            }
+
+            .healthy10 .information10{
+                float: left;
+            }
+
+
+.healthy10 .information10 h2{
+    text-transform: uppercase;
+                font-size: 36px;
+                font-family: cursive;
+                font-weight: 1200;
+                letter-spacing: 5px;
+                text-decoration: underline
+                }
+
+.healthy10 .information10 h4{
+    text-transform: capitalize;
+                font-size: 21px;
+                font-family: cursive;
+                font-weight: 500;
+                letter-spacing: 2px;
+                }
+
+.healthy10 .information10 p{
+    text-transform: capitalize;
+                font-size: 19px;
+                font-family: cursive;
+                font-weight: 500;
+                letter-spacing: 2px;
+                word-spacing: 10px;
+                }
+
+
+
+            .clearfix{clear: both}
+
+
+            .healthy11{
+                background: #f2f2f2;
+                overflow: hidden
+            }
+
+            .healthy11 .image11{
+                float: left;
+
+            }
+
+            .healthy11 .information11{
+                float: right;
+            }
+
+
+.healthy11 .information11 h2{
+    text-transform: uppercase;
+                font-size: 36px;
+                font-family: cursive;
+                font-weight: 1200;
+                letter-spacing: 5px;
+                text-decoration: underline
+                }
+
+.healthy11 .information11 h4{
+    text-transform: capitalize;
+                font-size: 21px;
+                font-family: cursive;
+                font-weight: 500;
+                letter-spacing: 2px;
+                }
+
+.healthy11 .information11 p{
+    text-transform: capitalize;
+                font-size: 19px;
+                font-family: cursive;
+                font-weight: 500;
+                letter-spacing: 2px;
+                word-spacing: 10px;
+                }
+
+
+
+
+            .healthy12{
+                background: white;
+                overflow: hidden
+            }
+
+            .healthy12 .image12{
+                float: right;
+
+            }
+
+            .healthy12 .information12{
+                float: left;
+            }
+
+
+.healthy12 .information12 h2{
+    text-transform: uppercase;
+                font-size: 36px;
+                font-family: cursive;
+                font-weight: 1200;
+                letter-spacing: 5px;
+                text-decoration: underline
+                }
+
+.healthy12 .information12 h4{
+                text-transform: capitalize;
+                font-size: 21px;
+                font-family: cursive;
+                font-weight: 500;
+                letter-spacing: 2px;
+                }
+
+.healthy12 .information12 p{
+    text-transform: capitalize;
+                font-size: 19px;
+                font-family: cursive;
+                font-weight: 500;
+                letter-spacing: 2px;
+                word-spacing: 10px;
+                }
+
+
+
+/* end about me */
+
+
+           /*start description*/
+
+.choose{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-top: 70px;
+    padding-bottom: 90px;
+    background-color: #f2f2f2;
+    height: 150px;
+    width: autopx;
+    text-align: center;
+    
+}
+
+.description .choose h2 {
+                font-size: 30px;
+                font-family: monospace;
+                font-weight: 1200;
+                letter-spacing: 5px;
+                text-transform: capitalize;
+                text-decoration: underline;
+                color: #666
+}
+
+            .description .choose p{
+                text-indent: 90px;
+                text-transform: capitalize;
+                font-size: 21px;
+                font-family: monospace;
+                font-weight: 500;
+                letter-spacing: 1px;
+                color: #555
+}
+.description .choose button{
+    background: none;
+    border:3px solid #2dcc70;
+    padding: 10px 30px;
+    color: 2dcc70;
+    margin-top: 20px;
+    margin-left: 40;
+    font-weight: bolder
+}
+
+           /*end description*/
+
+
+                    /*start portfolio*/
+        .portfolio{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+            }
+
+.portfolio h2{
+                font-size: 30px;
+                font-family: cursive;
+                font-weight: 1200;
+                letter-spacing: 5px;
+                text-transform: capitalize;
+                color: #444
+}
+
+.portfolio p{
+                text-transform: capitalize;
+                font-size: 21px;
+                font-family: monospace;
+                font-weight: 500;
+                letter-spacing: 1px;
+                color: #555
+}
+
+        .portfolio .ourwork{
+            overflow: hidden;
+        }
+
+        .portfolio .ourwork > div {
+            float: left;
+            width: 33.33333%;
+            margin-bottom: 15px;    
+        }
+
+        .portfolio .ourwork > div img {
+            width: 92%;
+            margin: 10px;
+            padding: 3px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 10px 10px 12px #ccc;
+}
+
+                    /*end portfolio*/
+
+
+                    /*start contact us*/
+
+.contact {
+    background-color: #252f31;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px
+}
+.contact .info{
+     float: left;
+    width: 50%;
+    margin-right: 5%;
+}
+
+.contact h2 {
+    color: #fff;
+    margin-left: 30px;
+}
+
+.contact p {
+    color: #6A6E71;
+    margin-left: 30px;
+    line-height: 1.7;
+}
+
+.contact p strong {
+    color: #d1d6da
+}
+
+
+.contact .form{
+    float: left;
+    width: 45%;
+}
+
+.contact .form label{
+    display: block; 
+    color: #d1d6da;
+    margin: 10px 0px;
+}
+
+.contact .form input[type="text"]{
+    background-color: #4b5557;
+    color: #fff;
+    padding: 10px;
+    border: 0;
+    width: 80%
+}
+
+
+.contact .form textarea{
+    background-color: #4b5557;
+    color: #fff;
+    padding: 10px;
+    border: 0;
+    width: 80%;
+    height: 300px;
+}
+
+.contact .form input[type="submit"]{
+    background-color: #191e22;
+    color:#fff;
+    padding: 10px 20px;
+    border:0;
+    margin-top: 10px;
+}
+
+                    /*end contact us*/
+
+/*start footer*/
+
+.footer {
+    background-color: #191E22;
+    color: #6A6E71;
+    padding: 20px 0px;
+    text-align: center
+}
+
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+    margin: 10px 0 0;
+}
+
+.footer ul li{
+    display: inline-block;
+}
+/*end footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
